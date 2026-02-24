@@ -12,5 +12,7 @@ dependencies = [
     "paramiko",
     "requests"
 ]
+[tool.setuptools.packages.find]
+where = ["src"]
 [project.scripts]
 relayfsd = "relayfsd.main:main"
