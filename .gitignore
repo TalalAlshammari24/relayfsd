@@ -2,3 +2,14 @@ data.json
 *.log
 venv/
 relayfsd.go
+# Arch Linux temporary build folders
+/pkg/
+*.pkg.tar.zst
+/src/python-relayfsd/
+.SRCINFO
+
+# Python build artifacts
+**/__pycache__/
+**/build/
+**/dist/
+**/*.egg-info/
