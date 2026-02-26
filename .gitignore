@@ -27,3 +27,5 @@ Thumbs.db
 
 src/data.json
 src/relayfsd
+
+relayfsd.service
