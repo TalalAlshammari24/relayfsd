@@ -30,6 +30,6 @@ func handleNewFile(localPath string) {
 		return
 	}
 
-	logger.Println("INFO | Upload complete")
+	logger.Printf("INFO | Upload complete: %s", filename)
 	notifyDiscord(fmt.Sprintf("Uploaded: %s → %s", filename, cfg.RemoteDir))
 }
